@@ -1,0 +1,114 @@
+header{ 
+    background-color: #6ab9c4;
+    padding-top: 1px;
+    padding-bottom: 25px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+
+nav li {
+    font-family: 'AntipastoR', sans-serif;
+	font-size: 1.2em;
+	line-height: 30px;
+    border-right: 3px solid #bbb;
+    border-color: #37b3ce;
+}
+
+nav li:last-child {
+    border-right: 0;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: 1s background-color;
+}
+
+nav a:hover {
+    background-color: #DDE;
+}
+
+nav a:focus {
+    background-color: #fff;
+    color: #444;
+    cursor: default;
+}
+
+h1 {
+    font-family: 'AntipastoL', sans-serif;
+    font-size: 3em;
+    color: #fff;
+    height: 15px;
+    position: relative;
+    bottom: 30px;
+}
+
+p#programacao{
+    font-family: 'AntipastoR', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    position: relative;
+    color: #FFF;
+    bottom: 50px;
+}
+
+.prog{
+    background-color: #0083CA;
+    width: 960px;
+    position: absolute;
+    left: 920px;
+    height: 750px;
+    bottom: 30px;
+}
+
+.logoDan{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    vertical-align: middle;
+}
+
+@media screen and (min-width: 600px) {
+	nav {
+    	position: absolute;
+    	top: 35px;
+    	right: 10px;
+	}
+	nav li {
+    	width: 180px;
+        border-bottom: none;
+        height: 50px;
+        width: 180px;
+        line-height: 50px;
+        font-size: 2.5em;
+        display: inline-block;
+        margin-right: -2px;
+    }
+    h1 {
+        font-family: 'AntipastoL', sans-serif;
+        font-size: 3em;
+        color: #fff;
+        height: 15px;
+        position: relative;
+        bottom: 30px;
+    }
+}
